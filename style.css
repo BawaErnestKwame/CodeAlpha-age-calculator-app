@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgb(241, 1, 161),chartreuse);
+    height: 85vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 300% 300%;
+    animation: color 5s infinite linear;
+
+}
+
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 0 100%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+    
+}
+
+.container{
+    background-color: chartreuse;
+    min-height: 200px;
+    width: 520px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0 ,0, 0,0.4);
+   padding-bottom: 10px;
+}
+
+.base{
+    width: 100%;
+    margin:0 ;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+
+.base h4{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+    box-shadow:0px 2px #bababa ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 600;
+    background-color: white;
+    padding: 5px;
+}
+
+.base h4 span{
+    color: darkorange;
+    
+}
+
+.block{
+    width: 150px;
+    padding: 20px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+   
+}
+
+.tittle{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(190, 20, 133);
+    letter-spacing: .5px;
+    word-spacing: 2px;
+}
+
+span{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    background-color: rgb(190, 20, 133);
+   
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+input[type=text]{
+    width: 130px;
+    margin: auto;
+    outline: none;
+    border: none;
+    border: 2px solid rgb(190, 20, 133);
+    border-radius: 3px;
+    color: black;
+    padding: 12px;
+    font-size: 17px;
+
+}
+
+
+input[type=text]:focus{
+    background-color: antiquewhite;
+    border: 2px solid green;
+}
+
+
+input[type=button]{
+    width: 150px;
+    margin-left: 40%;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    letter-spacing: .5px;
+    transition: 0.5s;
+}
+
+
+input[type=button]:hover{
+    background-color: rgb(4, 4, 95);
+    color: rgb(252, 252, 252);
+}
+
+
+.age{
+
+    margin-bottom: 20px;
+   text-align: center;
+   
+    overflow: hidden;
+   color: rgb(29, 6, 235);
+    font-size: 20px;
+    line-height: 1.5;
+    display: block;
+    margin-left: 40px;
+}
+
+
+
+
